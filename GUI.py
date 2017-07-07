@@ -44,7 +44,7 @@ def pressBTC(button):
             if database == "BTC_Accounting":
                 GUI_Query.BTC_Query(cursor, db)
             else:
-                GUI_Input.SJCX_Input(cursor, db)
+                GUI_Query.SJCX_Query(cursor, db)
             
         elif function == "Update":
             print (function)
