@@ -2,7 +2,6 @@ import pymysql
 from appJar import gui
 import GUI_Input
 import GUI_Query
-export DISPLAY=0.0
 
 def hideAll():
     app.hideLabel("title")
