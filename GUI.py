@@ -1,3 +1,4 @@
+export DESKTOP=:0.0
 import pymysql
 from appJar import gui
 import GUI_Input
